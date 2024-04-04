@@ -8,6 +8,7 @@ This role is based on the original `glusterfs` role created by [geerlingguy](htt
 
 ## Modifications Made
 - Changed deprecated 'include' module to the 'include_tasks'
+- Updated gluster version fro m7 to 10 in the defaults file
 
 ## Original Role
 You can find the original role by geerlingguy here: [geerlingguy/ansible-role-glusterfs](https://github.com/geerlingguy/ansible-role-glusterfs).
