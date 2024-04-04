@@ -3,8 +3,8 @@ dependencies: []
 
 galaxy_info:
   role_name: glusterfs
-  author: geerlingguy
-  description: GlusterFS installation for Linux.
+  author: fzsys
+  description: geerlingguy.glusterfs role with fixed deprecations.
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.10
@@ -30,3 +30,5 @@ galaxy_info:
     - sharing
     - gluster
     - glusterfs
+  original_author: geerlingguy
+  modifications_made: Fixed deprecations
