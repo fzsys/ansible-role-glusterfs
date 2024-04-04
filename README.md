@@ -4,8 +4,13 @@
 
 Installs and configures GlusterFS on Linux.
 
-The role was originally made by [Jeff Geerling](https://www.jeffgeerling.com/). 
-Current fork just contains several deprecation fixes. 
+This role is based on the original `glusterfs` role created by [geerlingguy](https://github.com/geerlingguy). Modifications have been made to extend functionality, update compatibility with newer distributions, and incorporate community feedback.
+
+## Modifications Made
+- Changed deprecated 'include' module to the 'include_tasks'
+
+## Original Role
+You can find the original role by geerlingguy here: [geerlingguy/ansible-role-glusterfs](https://github.com/geerlingguy/ansible-role-glusterfs).
 
 ## Requirements
 
